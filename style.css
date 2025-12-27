@@ -1,1 +1,77 @@
 
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Georgia, serif;
+}
+
+body{
+  min-height:100vh;
+  background:#faf6f0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#333;
+}
+
+/* LOCK */
+.lock{
+  text-align:center;
+  padding:30px;
+}
+
+.title{
+  font-size:20px;
+  margin-bottom:20px;
+}
+
+.lock input{
+  width:220px;
+  padding:10px;
+  border-radius:8px;
+  border:1px solid #ccc;
+  font-size:16px;
+}
+
+.lock button{
+  margin-top:15px;
+  padding:8px 24px;
+  border:none;
+  border-radius:20px;
+  background:#d8b384;
+  color:white;
+  font-size:15px;
+}
+
+#error{
+  margin-top:10px;
+  color:#c0392b;
+}
+
+/* CARD */
+.card{
+  display:none;
+  max-width:360px;
+  background:white;
+  padding:30px;
+  border-radius:18px;
+  line-height:1.7;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.to{
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+.wish{
+  margin-top:15px;
+  font-weight:bold;
+}
+
+.from{
+  margin-top:20px;
+  text-align:right;
+  font-style:italic;
+}
